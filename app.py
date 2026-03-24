@@ -36,9 +36,8 @@ div[data-testid="stMetricValue"] { font-size: 1.4rem; }
 # ── Session State ─────────────────────────────────────────
 def init_state():
     defaults = {
-        "nurses":     ["林思親", "黃致閔", "邱詠朗", "印尼妹",
-                       "執行長", "教授豪", "周星星", "包租婆",
-                       "包租公", "妮豪大"]
+        "nurses":     ["護理師01", "護理師02", "護理師03", "護理師04",
+                       "護理師05", "護理師06", "護理師07", "護理師08"],
         "seniority":  {},
         "year":       datetime.date.today().year,
         "month":      datetime.date.today().month,
@@ -116,7 +115,7 @@ if page == "⚙️ 人員與班別設定":
 
     with col_list:
         nurses_text = st.text_area(
-            "每行一位護理師姓名",
+            "✏️ 直接在此修改姓名（每行一人，勿修改程式碼）",
             value="\n".join(st.session_state.nurses),
             height=220,
         )
