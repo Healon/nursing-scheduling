@@ -36,8 +36,9 @@ div[data-testid="stMetricValue"] { font-size: 1.4rem; }
 # ── Session State ─────────────────────────────────────────
 def init_state():
     defaults = {
-        "nurses":     ["王小明", "李美玲", "陳志偉", "張雅惠",
-                       "林佳欣", "黃俊豪", "吳雅婷", "蔡宗翰"],
+        "nurses":     ["林思親", "黃致閔", "邱詠朗", "印尼妹",
+                       "執行長", "教授豪", "周星星", "包租婆",
+                       "包租公", "妮豪大"]
         "seniority":  {},
         "year":       datetime.date.today().year,
         "month":      datetime.date.today().month,
