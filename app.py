@@ -41,8 +41,8 @@ st.markdown("""
 # ── Session State 初始化 ──────────────────────────────────
 def init_state():
     defaults = {
-        "nurses":       ["王小明", "李美玲", "陳志偉", "張雅惠", "林佳欣",
-                         "黃俊豪", "吳雅婷", "蔡宗翰", "林思親", "黃致閔"],
+        "nurses":       ["林思親", "黃致閔", "泰勒絲", "邱詠朗", "印尼妹",
+                         "范家豪", "執行長", "蔡宗翰", "王曉明", "李美玲"],
         "year":         datetime.date.today().year,
         "month":        datetime.date.today().month,
         "min_day":      2,
