@@ -42,7 +42,7 @@ st.markdown("""
 def init_state():
     defaults = {
         "nurses":       ["王小明", "李美玲", "陳志偉", "張雅惠", "林佳欣",
-                         "黃俊豪", "吳雅婷", "蔡宗翰"],
+                         "黃俊豪", "吳雅婷", "蔡宗翰", "林思親", "黃致閔"],
         "year":         datetime.date.today().year,
         "month":        datetime.date.today().month,
         "min_day":      2,
